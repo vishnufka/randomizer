@@ -57,7 +57,7 @@ def pick_team(num_names):
             break
     return team
 
-def randomiser():
+def randomizer():
     
     num_leaders = len(leader_names)
     num_names = len(names)
@@ -84,5 +84,5 @@ def randomiser():
     #)
 
 #def lambda_handler(event, context):
-randomiser()
-#    return("Randomiser posted successfully!")
+randomizer()
+#    return("Randomizer posted successfully!")
